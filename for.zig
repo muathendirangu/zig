@@ -1,6 +1,6 @@
 const expect = @import("std").testing.expect;
 
-// for loops are used to iterate over the arrays
+// 5. for loops are used to iterate over the arrays
 
 //5. for loop
 test "for loop" {

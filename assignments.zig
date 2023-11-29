@@ -6,6 +6,8 @@ const expect = @import("std").testing.expect;
 // **IMPORTANT POINT** if no values are assigned to them, the undefined value is given which can be coreced to any type
 // as long as a type annotation is provided
 
+// variables names use the snake_case format
+
 const constant: i32 = 11; // signed i32 integer
 var variable: u32 = 11000; // unsigned i32 integer
 test "assigning values to variables and constants" {
